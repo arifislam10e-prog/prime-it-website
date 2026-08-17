@@ -214,7 +214,7 @@ body {
   border-color: rgba(0,212,255,0.4) !important;
 }
 
-/* Floating animation */
+/* Animations */
 @keyframes float {
   0%, 100% { transform: translateY(0px) rotate(0deg); }
   33% { transform: translateY(-15px) rotate(1deg); }
@@ -268,7 +268,7 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Particles */
+/* Particles & Orbs */
 .particle {
   position: absolute;
   border-radius: 50%;
@@ -276,7 +276,6 @@ body {
   pointer-events: none;
 }
 
-/* Glow orbs */
 .glow-orb {
   position: absolute;
   border-radius: 50%;
@@ -331,19 +330,16 @@ body {
   background-size: 50px 50px;
 }
 
-/* Border glow animation */
 .border-glow-anim {
   animation: borderGlow 3s ease-in-out infinite;
 }
 
-/* Pricing card popular */
 .pricing-popular {
   background: linear-gradient(135deg, rgba(0,212,255,0.1), rgba(0,100,180,0.15));
   border: 1px solid rgba(0,212,255,0.4) !important;
   box-shadow: 0 0 30px rgba(0,212,255,0.2);
 }
 
-/* Shimmer text */
 .shimmer-text {
   background: linear-gradient(90deg, #ffffff 25%, var(--neon-blue) 50%, #ffffff 75%);
   background-size: 200% auto;
@@ -362,12 +358,10 @@ body {
   to { width: 100%; }
 }
 
-/* Testimonials */
 .testimonial-slider {
   transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-/* FAQ accordion */
 .faq-content {
   max-height: 0;
   overflow: hidden;
@@ -377,7 +371,6 @@ body {
   max-height: 500px;
 }
 
-/* Mobile menu */
 .mobile-menu {
   transform: translateX(-100%);
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -386,7 +379,6 @@ body {
   transform: translateX(0);
 }
 
-/* Hero scan */
 .hero-scan::after {
   content: '';
   position: absolute;
@@ -398,11 +390,9 @@ body {
   pointer-events: none;
 }
 
-/* Custom scrollbar for modals */
 .modal-scroll::-webkit-scrollbar { width: 3px; }
 .modal-scroll::-webkit-scrollbar-thumb { background: var(--neon-blue); }
 
-/* Tag badge */
 .badge-neon {
   background: rgba(0,212,255,0.1);
   border: 1px solid rgba(0,212,255,0.3);
@@ -411,12 +401,10 @@ body {
   letter-spacing: 0.1em;
 }
 
-/* Icon glow */
 .icon-glow {
   filter: drop-shadow(0 0 8px var(--neon-blue));
 }
 
-/* Stat card */
 .stat-card {
   background: rgba(7, 10, 19, 0.62);
   border: 1px solid rgba(0, 212, 255, 0.24);
@@ -437,7 +425,6 @@ body {
   box-shadow: 0 0 20px rgba(0,212,255,0.1);
 }
 
-/* Portfolio filter btn */
 .filter-btn {
   transition: all 0.3s;
   border: 1px solid rgba(0,212,255,0.2);
@@ -448,10 +435,8 @@ body {
   color: var(--neon-blue);
 }
 
-/* Star rating */
 .star-gold { color: var(--gold-bright); }
 
-/* Back to top */
 .back-to-top {
   position: fixed;
   bottom: 6rem;
@@ -466,7 +451,6 @@ body {
   transform: translateY(0);
 }
 
-/* Live chat */
 .live-chat {
   position: fixed;
   bottom: 1.5rem;
@@ -474,7 +458,6 @@ body {
   z-index: 100;
 }
 
-/* Mouse glow effect */
 .mouse-glow {
   position: fixed;
   pointer-events: none;
@@ -487,7 +470,6 @@ body {
   transition: opacity 0.3s;
 }
 
-/* Section number */
 .section-number {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 6rem;
